@@ -1,5 +1,5 @@
 ﻿{
-	"angleData": [0, 0, 45, 0], 
+	"angleData": [0, 0, 90, 180, 999, 0, 0, 0, 90, 180, 999], 
 	"settings":
 	{
 		"version": 15 ,
@@ -27,21 +27,21 @@
 		"offset": 0, 
 		"pitch": 100, 
 		"hitsound": "Kick", 
-		"hitsoundVolume": 100, 
-		"countdownTicks": 4,
-		"trackColorType": "Single", 
-		"trackColor": "debb7b", 
+		"hitsoundVolume": 25, 
+		"countdownTicks": 3,
+		"trackColorType": "Blink", 
+		"trackColor": "00ffcfff", 
 		"secondaryTrackColor": "ffffff", 
 		"trackColorAnimDuration": 2, 
-		"trackColorPulse": "None", 
+		"trackColorPulse": "Forward", 
 		"trackPulseLength": 10, 
 		"trackStyle": "Standard", 
 		"trackTexture": "", 
 		"trackTextureScale": 1, 
 		"trackGlowIntensity": 100, 
-		"trackAnimation": "None", 
+		"trackAnimation": "Assemble", 
 		"beatsAhead": 3, 
-		"trackDisappearAnimation": "None", 
+		"trackDisappearAnimation": "Fade", 
 		"beatsBehind": 4,
 		"backgroundColor": "000000", 
 		"showDefaultBGIfNoImage": true, 
@@ -83,7 +83,9 @@
 	"actions":
 	[
 		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 32.75, "bpmMultiplier": 1E-07, "angleOffset": 0},
-		{ "floor": 2, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 4, "angleOffset": 0}
+		{ "floor": 2, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 4, "angleOffset": 0},
+		{ "floor": 4, "eventType": "PlaySound", "hitsound": "Hat", "hitsoundVolume": 100, "angleOffset": 0, "eventTag": ""},
+		{ "floor": 10, "eventType": "PlaySound", "hitsound": "Hat", "hitsoundVolume": 100, "angleOffset": 0, "eventTag": ""}
 	],
 	"decorations":
 	[
