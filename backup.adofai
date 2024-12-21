@@ -1,5 +1,5 @@
 ﻿{
-	"angleData": [0, 0, 90, 180, 999, 0, 0, 0, 90, 180, 999], 
+	"angleData": [0, 0, 90, 180, 999, 0, 0, 0, 90, 180, 999, 0, 135, 999, 0, 135, 999, 0, 90, 180, 999, 0], 
 	"settings":
 	{
 		"version": 15 ,
@@ -85,7 +85,10 @@
 		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 32.75, "bpmMultiplier": 1E-07, "angleOffset": 0},
 		{ "floor": 2, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 4, "angleOffset": 0},
 		{ "floor": 4, "eventType": "PlaySound", "hitsound": "Hat", "hitsoundVolume": 100, "angleOffset": 0, "eventTag": ""},
-		{ "floor": 10, "eventType": "PlaySound", "hitsound": "Hat", "hitsoundVolume": 100, "angleOffset": 0, "eventTag": ""}
+		{ "floor": 10, "eventType": "PlaySound", "hitsound": "Hat", "hitsoundVolume": 100, "angleOffset": 0, "eventTag": ""},
+		{ "floor": 13, "eventType": "PlaySound", "hitsound": "Shaker", "hitsoundVolume": 100, "angleOffset": 0, "eventTag": ""},
+		{ "floor": 16, "eventType": "PlaySound", "hitsound": "Shaker", "hitsoundVolume": 100, "angleOffset": 0, "eventTag": ""},
+		{ "floor": 20, "eventType": "SetHitsound", "gameSound": "Hitsound", "hitsound": "Hat", "hitsoundVolume": 100}
 	],
 	"decorations":
 	[
